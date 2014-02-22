@@ -8,7 +8,7 @@ namespace Interface
     public class Skeleton: NPC
     {
         //Constructor
-         public Skeleton(int attack, int defence, int health, int damage) : base(attack, defence, health, damage) 
+         public Skeleton(int attack, int defense, int health, int damage) : base(attack, defense, health, damage) 
         { 
         }
     }

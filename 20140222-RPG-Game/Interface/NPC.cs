@@ -8,7 +8,7 @@ namespace Interface
     public class NPC: Character
     {
         //Constructor
-         public NPC(int attack, int defence, int health, int damage) : base(attack, defence, health, damage) 
+         public NPC(int attack, int defense, int health, int damage) : base(attack, defense, health, damage) 
         { 
         }
         //Method

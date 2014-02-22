@@ -8,7 +8,7 @@ namespace Interface
     public class Zombie: NPC
     {
         //Constructor
-         public Zombie(int attack, int defence, int health, int damage) : base(attack, defence, health, damage) 
+         public Zombie(int attack, int defense, int health, int damage) : base(attack, defense, health, damage) 
         { 
         }
     }

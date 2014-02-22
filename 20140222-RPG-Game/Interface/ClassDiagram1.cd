@@ -52,7 +52,7 @@
   <Class Name="Interface.Hero">
     <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAECAABBAAABAAAAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>QAAAAQAAAAAAAAAACAAAAAAABAAAAEAAAAAAAAAAQAE=</HashCode>
       <FileName>Hero.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -91,11 +91,11 @@
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Interface.Program" Collapsed="true">
+  <Class Name="Interface.MainClass" Collapsed="true">
     <Position X="16.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
+      <FileName>MainClass.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Interface.Skeleton">
@@ -133,25 +133,25 @@
       <FileName>Zombie.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Interface.Form1" Collapsed="true">
+  <Class Name="Interface.MainMenu" Collapsed="true">
     <Position X="18.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAACAAABEAAACAAAACAEA4AAAAAFQIAAEAAAA=</HashCode>
-      <FileName>Form1.cs</FileName>
+      <HashCode>AAAABAQAIDIAQAAAACCAAAACSAAAAAAAAEAIAAIAAAQ=</HashCode>
+      <FileName>MainMenu.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Interface.Form2" Collapsed="true">
+  <Class Name="Interface.CharacterChoice" Collapsed="true">
     <Position X="14.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIpQAACAAABEAAECAQAACAAAYAAAAAGAAAIFAAAA=</HashCode>
-      <FileName>Form2.cs</FileName>
+      <HashCode>CgAAQQQAACAAAACCAIGAAACKQAQAECAABAAAQAAAEQA=</HashCode>
+      <FileName>CharacterChoice.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Interface.Form3" Collapsed="true">
+  <Class Name="Interface.GameMap" Collapsed="true">
     <Position X="16.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAQQACAAABAAAACAAAACAAAoAAAAAAAAAQBAAAA=</HashCode>
-      <FileName>Form3.cs</FileName>
+      <HashCode>BAAAAggAACAAADAAAACWAAACAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>GameMap.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Interface.Character">

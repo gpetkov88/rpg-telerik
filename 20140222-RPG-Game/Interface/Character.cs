@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Interface
 {
@@ -9,7 +7,7 @@ namespace Interface
     {
         //Field
         protected int attack;
-        protected int defence;
+        protected int defense;
         protected int health;
         protected int damage;
         //Property
@@ -18,10 +16,10 @@ namespace Interface
             get { return this.attack; }
             set { this.attack = value; }
         }
-        public int Defence
+        public int Defense
         {
-            get { return this.defence; }
-            set { this.defence = value; }
+            get { return this.defense; }
+            set { this.defense = value; }
         }
         public int Health
         {
@@ -34,10 +32,10 @@ namespace Interface
             set { this.damage = value; }
         }
         //Constructor
-        public Character (int attack, int defence, int health, int damage)
+        public Character (int attack, int defense, int health, int damage)
         {
             this.Attack = attack;
-            this.Defence = defence;
+            this.defense = defense;
             this.Health = health;
             this.Damage = damage;
         }

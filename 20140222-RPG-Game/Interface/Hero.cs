@@ -9,33 +9,33 @@ namespace Interface
     {
         //Fields
         private int gold;
-        private int experiance;
+        private int experiеnce;
+        //Constructor
+        public Hero(int attack, int defense, int health, int damage, int gold, int experience) : base(attack, defense, health, damage) 
+        {
+            this.Gold = gold;
+            this.Experience = experience;
+        }
+        //Methods
+        public void GainGold()
+        { 
+        }
+        public void GainExperience()
+        {
+        }
+        public override void SomeMethod()
+        {
+        }
         //Properties
         public int Gold
         {
             get { return this.gold; }
             set { this.gold = value; }
         }
-        public int Experiance
+        public int Experience
         {
-            get { return this.experiance; }
-            set { this.experiance = value; }
-        }
-        //Constructor
-        public Hero(int attack, int defence, int health, int damage, int gold, int experiance) : base(attack, defence, health, damage) 
-        {
-            this.Gold = gold;
-            this.Experiance = experiance;
-        }
-        //Methods
-        public void GainGold()
-        { 
-        }
-        public void GainExpererianc()
-        { 
-        }
-        public override void SomeMethod()
-        {
+            get { return this.experiеnce; }
+            set { this.experiеnce = value; }
         }
     }
 }

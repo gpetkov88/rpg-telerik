@@ -8,7 +8,7 @@ namespace Interface
     public class Vampire: NPC
     {
         //Constructor
-         public Vampire(int attack, int defence, int health, int damage) : base(attack, defence, health, damage) 
+         public Vampire(int attack, int defense, int health, int damage) : base(attack, defense, health, damage) 
         { 
         }
     }

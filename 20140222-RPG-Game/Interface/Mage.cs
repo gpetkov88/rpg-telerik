@@ -7,7 +7,7 @@ namespace Interface
 {
     public class Mage: Hero
     {
-        public Mage(int attack, int defence, int health, int damage, int gold, int experiance) : base(attack, defence, health, damage, gold, experiance) 
+        public Mage(int attack, int defense, int health, int damage, int gold, int experience) : base(attack, defense, health, damage, gold, experience) 
         {
         }
     }
