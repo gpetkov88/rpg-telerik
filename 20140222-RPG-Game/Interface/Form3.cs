@@ -40,7 +40,7 @@ namespace Interface
             radioButton2.Visible = false;
             radioButton3.Visible = false;
             radioButton4.Visible = false;
-            PlayerPicture.BackgroundImage = new Bitmap(@"C:\Users\Ghos7\Documents\GitHub\rpg-telerik\20140222-RPG-Game\Interface\Resources\Sorcerer.png");
+            PlayerPicture.BackgroundImage = new Bitmap(Properties.Resources.Sorcerer);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
